@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cahya Robbi Ramadhan</a>
+        </div>
+    </nav>
+
+    <div class="bioContainer container-fluid bg-dark">
+        <div class="container full d-flex flex-row align-items-center">
+            <div class="d-flex flex-column col-6 gap-2">
+                <h1 class="text-light fw-bolder">Hi..
+                    <br />I'm Cahya Robbi Ramadhan
+                </h1>
+                <span class="text-light">Fullstack Developer || Experienced in PHP, C# .NET, React JS</span>
+                <button class="btn btn-outline-danger col-4 mt-3" id="about-me-button">About me</button>
+            </div>
+            <div class="col-6 full d-flex flex-column justify-content-center align-items-center" id="profile-photo">
+                <div class="content">
+                    <img src="cahya23105-removebg-preview (1) (1).png" alt="Image" class="shadow-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-light bg-dark full d-flex flex-column justify-content-center align-items-center"
+        id="about-me-container">
+        <div class="container d-flex flex-row gap-3 justify-content-center">
+            <div class="d-flex flex-row gap-5 col-4 justify-content-center">
+                <div class="image-container">
+                    <img src="Pas foto.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+
+            <div class="d-flex flex-column gap-1 col-6">
+                <h2 class="fw-bolder">About Me</h2>
+                <p class="aboutMe">My name is Cahya Robbi Ramadan, I graduated from Application
+                    Software Engineering
+                    at Telkom
+                    University with GPA 3.66. I
+                    have a
+                    strong passion for learning new things related to technology and others. And I have learned
+                    about programming since high
+                    school until
+                    now. During the process of learning about programming, I've been built a website for record the
+                    list of attendance for
+                    employees in
+                    Politeknik Bandung, Chatbot Telegram for academic service of the Faculty of Applied Sciences at
+                    Telkom University, and
+                    the other small
+                    project at college. I also take an opportunity doing the internship at Gikslabs Talenta
+                    International.</p>
+                <span>HTML/CSS</span>
+                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar bg-info text-dark" style="width: 80%">80%</div>
+                </div>
+                <span>PHP</span>
+                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-info text-dark" style="width: 75%">75%</div>
+                </div>
+                <span>SQL</span>
+                <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-info text-dark" style="width: 75%">75%</div>
+                </div>
+                <div class="align-self-end">
+                    <button class="btn btn-outline-success mt-3" id="my-project-button">My
+                        Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="MyProject bg-dark container-fluid full d-flex flex-column justify-content-center align-items-center text-light"
+        id="my-project-container">
+        <h2 class=" m-auto mt-4 mb-4">My Project</h2>
+        <div class="d-flex flex-row gap-3">
+            <div class="card text-white bg-danger" style="width: 18rem;">
+                <img src="Screenshot (124).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">TabunganKu</h5>
+                    <p class="card-text">Aplikasi sederhana untuk mencatat pengeluaran uang menggunakan Framework
+                        Codeigniter
+                    </p>
+                </div>
+            </div>
+            <div class="card text-white bg-danger" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Puadi Karung</h5>
+                    <p class="card-text">Aplikasi Untuk mendata stok dan pembelian ditoko karung menggunakan framework
+                        codeigniter</p>
+                </div>
+            </div>
+            <div class="card text-white bg-danger" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">Gikslabs Talenta International</h5>
+                    <p class="card-text">Membuat beberapa page menggunakan React JS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.getElementById("about-me-button").addEventListener("click", () => ScrollTo("about-me-container"));
+        document.getElementById("profile-photo").addEventListener("click", () => ScrollTo("about-me-container"));
+        document.getElementById("my-project-button").addEventListener("click", () => ScrollTo("my-project-container"));
+
+        function ScrollTo(page) {
+            window.scrollTo({
+                top: document.getElementById(page).offsetTop,
+                behavior: "smooth"
+            });
+        }
+    </script>
+</body>
+
+</html>
