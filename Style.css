@@ -45,9 +45,19 @@
     animation: progress-animated 2s linear forwards;
 }
 
+
 @media (max-width: 767px) {
-    .flex-row {
-        flex-direction: column-reverse;
+    .content {
+        height: 150px;
+        width: 150px;
+    }
+
+    .image-container {
+        width: 150px;
+    }
+
+    .aboutMe {
+        font-size: x-small;
     }
 }
 
